@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AegisDerm", "AegisDerm.csproj", "{79E3E812-D55A-42BB-A596-7EB800F53CBA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AegisDerm.API", "src/AegisDerm.API.csproj", "{79E3E812-D55A-42BB-A596-7EB800F53CBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
