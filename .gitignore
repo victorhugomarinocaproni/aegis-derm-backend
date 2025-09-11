@@ -22,7 +22,6 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
-.idea/
 
 # .NET Core
 project.lock.json
@@ -56,3 +55,8 @@ nunit-*.xml
 
 # MacOS System
 .DS_Store
+
+# JetBrains Rider
+*.DotSettings.user
+*.user
+.idea/
