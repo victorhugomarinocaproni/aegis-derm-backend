@@ -1,0 +1,6 @@
+@baseUrl = http://localhost:5095
+
+GET {{baseUrl}}/weatherforecast/
+Accept: application/json
+
+###
