@@ -13,14 +13,18 @@ By frontend, we refer to the Aegis Derm mobile application, as well as the Web a
 - `src/`: Contains the source code for the backend service.
 - `tests/`: Contains unit and integration tests.
 
-For this project we use the SQL Server database. This database does not run in every environment(Operating System). Bearing that in mind, we have created a docker-compose file that will run the database in a container. This way, we can ensure that the database will run in every environment.
+# Install Dotnet Tolls 
+We need some commands from the external tool called `dotnet-ef` to manage our database migrations. To install it, run the following command in your terminal:
+```bash
+  dotnet tool install -g dotnet-ef
+```
 
-## Getting Started with Docker (MacOS):
+## Getting Started with Docker (macOS):
 1. **Install Docker**: If you haven't already, download and install Docker from [Docker's official website](https://www.docker.com/products/docker-desktop).
    1. If you prefer, you can also install Docker via Homebrew:
-      ```bash
-      brew install --cask docker
-      ```
+   ```bash
+   brew install --cask docker
+   ```
 2. **Docker Image**: Pull the SQL Server Docker image by running the following command in your terminal:
    ```bash
    docker pull postgres:latest
